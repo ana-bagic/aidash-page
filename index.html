@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AI Dash</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="images/icon.png" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+
+<body class="content">
+    <header class="header animated-background">
+        <nav class="navigation">
+            <a href="index.html" class="link">
+                <img class="scaled-image" src="images/ai_dash.png" alt="Game logo">
+            </a>
+            <div class="menu flex-row">
+                <a href="#about" class="link menu-item">O PROJEKTU</a>
+                <a href="#download" class="link menu-item">DOWNLOAD</a>
+                <a href="#galerija" class="link menu-item">GALERIJA</a>
+                <a href="#tim" class="link menu-item">PROJEKTNI TIM</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home animated-background flex-column">
+            <img src="images/geom-dash-orange-icon.png" alt="Icon" class="icon-photo">
+            <img src="images/ai_dash.png" alt="Game logo" class="title-photo">
+            <p class="centered-title">Projekt R</p>
+        </section>
+
+        <section id="about">
+            <div class="container flex-column">
+                <img src="images/about.png" alt="About" class="section-photo">
+                <div class="about-section flex-row">
+                    <div class="about-text">
+                        <p>
+                            AI Dash je igra razvijena u sklopu predmeta Projekt R na Fakultetu elektrotehnike i računarstva u Zagrebu,
+                            akademske godine 2020./2021.
+                        </p>
+                        <p>
+                           Za razvoj naše igre, mnoge vizualne elemente preuzeli smo iz popularne mobilne igrice Geometry Dash kao i ideju samog gameplay-a.
+                            AI Dash je platform runner style igrica gdje lik konstantnom brzinom trči udesno dok igrač skačući izbjegava prepreke i putuje levelom.
+                            Cilj igre je doći što dalje, te na kraju i dovršiti level.
+                        </p>
+                        <p>
+                           Osim samog igranja, korisnik može trenirati neuronske mreže koje se kasnije koriste kako bi igru mogla igrati umjetna inteligencija.
+                        </p>
+                        <p>
+                            Od umjetne inteligencije implementirali smo, te se mogu koristiti sljedeći algoritmi:
+                            <ul class="ai">
+                                <li>Genetski algoritam</li>
+                                <li>Elmanov genetski algoritam</li>
+                                <li>Genetsko programiranje</li>
+                            </ul>
+                        </p>
+                        <p>
+                            Korisnik također ima opciju izgrađnje svog levela koristeći implementirani level editor.
+                            Stvaranjem računa, korisnik može pratiti svoj napredak kroz statistiku pojedinog levela, ali i cijele igrice.
+                            Također, u aplikaciji postoji i opcija odabira charactera s kojim se želi igrati.
+                        </p>
+                        <p>
+                            Projekt je implementiran u programskom jeziku Java 14, uz korištenje tehnologije JavaFX.
+                        </p>
+                    </div>
+                    <div class="characters flex-column">
+                        <img src="images/geom-dash-sad-icon.jpg" alt="First char" class="icon-photo">
+                        <img src="images/geom-dash-3000-stars-icon.jpg" alt="Second char" class="icon-photo">
+                        <img src="images/geom-dash-shy-guy-icon.jpg" alt="Third char" class="icon-photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="download">
+            <div class="container flex-column">
+                <img src="images/downloadH.png" alt="Download" class="section-photo">
+
+                <a href="#download" class="download-option flex-column">
+                    <img src="images/download.png" alt="Download" class="download-icon">
+                    <p>JAR</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="galerija">
+            <div class="container flex-column">
+                <img src="images/galery.png" alt="Galery" class="section-photo">
+
+                <div class="grid-row flex-row">
+                    <div class="grid-item">
+                        <img src="images/pic1.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Početna stranica
+                        </p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="images/pic2.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Izbor charactera
+                        </p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="images/pic3.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Stvaranje novog levela
+                        </p>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="images/pic4.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Postavke
+                        </p>
+                    </div>
+
+                    
+                    <div class="grid-item">
+                        <img src="images/pic5.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Statistika ulogiranog korisnika
+                        </p>
+                    </div>
+
+                    
+                    <div class="grid-item">
+                        <img src="images/pic6.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Izbor opcije za treniranje mreže
+                        </p>
+                    </div>
+
+                    
+                    <div class="grid-item">
+                        <img src="images/pic7.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Postavljanje parametara i treniranje genetske mreže
+                        </p>
+                    </div>
+
+                    
+                    <div class="grid-item">
+                        <img src="images/pic8.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Postavljanje parametara i treniranje Elmanove mreže
+                        </p>
+                    </div>
+
+                    
+                    <div class="grid-item">
+                        <img src="images/pic9.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Postavljanje parametara i treniranje genetskog programiranja
+                        </p>
+                    </div>
+
+                    
+                    <div class="grid-item">
+                        <img src="images/pic10.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Izbor levela
+                        </p>
+                    </div>
+
+                    
+                    <div class="grid-item">
+                        <img src="images/pic11.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Statistika levela
+                        </p>
+                    </div>
+
+                    
+                    <div class="grid-item">
+                        <img src="images/pic12.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Gameplay 1
+                        </p>
+                    </div>
+
+                    
+                    <div class="grid-item">
+                        <img src="images/pic13.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Gameplay 2
+                        </p>
+                    </div>
+
+                    
+                    <div class="grid-item">
+                        <img src="images/pic14.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Gameplay 3
+                        </p>
+                    </div>
+
+                    
+                    <div class="grid-item">
+                        <img src="images/pic15.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Gameplay 4
+                        </p>
+                    </div>
+
+                    
+                    <div class="grid-item">
+                        <img src="images/pic16.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Gameplay 5
+                        </p>
+                    </div>
+
+                    
+                    <div class="grid-item">
+                        <img src="images/pic17.png" alt="Screenshot" class="cover-image">
+                        <p class="description">
+                            Izbornik nakon smrti
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tim">
+            <div class="container flex-column">
+                <div class="flex-row team-section">
+                    <div>
+                        <img src="images/team.png" alt="Team" class="section-photo-team">
+                        <ul class="about-text names-list">
+                            <li>Andi Škrgat (Voditelj)</li>
+                            <li>Ana Bagić</li>
+                            <li>Krešimir Blaić</li>
+                            <li>Matija Frandolić</li>
+                            <li>Magdalena Mucić</li>
+                            <li>Damjan Radovanović</li>
+                            <li>Ivan Sabolić</li>
+                            <li>Matej Škrabić</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="images/mentor.png" alt="Mentor" class="section-photo-team">
+                        <ul class="about-text names-list">
+                            <li>Marko Čupić</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer animated-background">
+        <div>
+            Copyright © 2021. Sveučilište u Zagrebu, Fakultet elektrotehnike i računarstva
+        </div>
+    </footer>
+</body>
+
+</html>

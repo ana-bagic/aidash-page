@@ -1,0 +1,238 @@
+/* color palette
+    light green - #ccff55
+    green - #88ff33
+    dark green - #66aa22
+    yellow - #ffce02
+        box-shadow: 0 5px 20px darkslategrey;
+*/
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.content {
+    margin: 0px;
+    position: relative;
+}
+
+.animated-background {
+    background: linear-gradient(-90deg, #800080, #DC143C, #FFA500, #9ACD32, #40c240, #1E90FF, #731ec2);
+    background-size: 800% 100%;
+    animation: animatedgradient 60s ease infinite;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navigation {
+    padding: 10px 30px 10px 30px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #ccff55;
+}
+
+.scaled-image {
+    width: 250px;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    font-size: 22px;
+    float: right;
+}
+
+.menu-item {
+    padding: 20px;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.home {
+    margin: auto;
+    padding-top: 180px;
+    margin-top: -100px;
+    align-items: center;
+}
+
+.icon-photo {
+    width: 150px;
+}
+
+.title-photo {
+    width: 450px;
+}
+
+.centered-title {
+    font-size: 50px;
+    margin-top: 10px;
+    color: white;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+.section-photo {
+    width: 400px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.about-text {
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+    padding-left: 40px;
+    line-height: 35px;
+}
+
+.ai {
+    color: #66aa22;
+}
+
+.characters {
+    margin-left: 7%;
+    justify-content: space-around;
+}
+
+.download-option {
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+    width: fit-content;
+    align-self: center;
+}
+
+.download-option:hover {
+    opacity: 60%;
+}
+
+.download-icon {
+    width: 80px;
+}
+
+.grid-row {
+    flex-flow: row wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.grid-item {
+    margin: 1%;
+    flex-basis: 30%;
+}
+
+.cover-image {
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+  
+.description {
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #66aa22;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.team-section {
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.names-list {
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.section-photo-team {
+    height: 120px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    font-size: 18px;
+}
+
+@media(max-width: 1000px) {
+    .grid-item {
+        flex-basis: 44%;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0px 20px;
+    }
+
+    .about-section {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .characters {
+        flex-direction: row;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}
+  
+@media(max-width: 600px) {
+    .grid-item {
+        flex-basis: 90%;
+    }
+
+    .icon-photo {
+        width: 30%;
+    }
+}
+
+@keyframes animatedgradient {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+}
