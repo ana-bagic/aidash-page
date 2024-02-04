@@ -14,6 +14,8 @@ Korisnik također ima opciju izgrađnje svog levela koristeći implementirani le
 
 Projekt je implementiran u programskom jeziku Java 14, uz korištenje tehnologije JavaFX.
 
+Repozitorij sa izvornim kodom igre: https://github.com/as51340/GeometryDashAI. Ovu pokaznu stranicu sam ja napravila.
+
 ## Projektni tim
 
 - Andi Škrgat (Voditelj)
